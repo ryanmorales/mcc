@@ -4,7 +4,7 @@ public class BlockingQueueExample {
 
   public static void main(String[] args) throws InterruptedException {
     
-    BlockingQueue<String> queue = new ArrayBlockingQueue<>(2);
+    BlockingQueue<String> queue = new ArrayBlockingQueue<>(8);
     queue.put("John");
     queue.put("Jane");
     queue.put("Jim");

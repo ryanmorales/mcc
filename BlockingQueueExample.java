@@ -7,6 +7,12 @@ public class BlockingQueueExample {
     BlockingQueue<String> queue = new ArrayBlockingQueue<>(2);
     queue.put("John");
     queue.put("Jane");
+    queue.put("Jim");
+    queue.put("Jack");
+    queue.put("Jade");
+    queue.put("Joe");
+    queue.put("Janie");
+    queue.put("Jassie");
     System.out.println("BlockingQueue: " + queue);
 
 
